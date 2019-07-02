@@ -1,0 +1,110 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.section1{
+    background-color:  hsl(193, 100%, 96%);
+    background-image: url('images/bg-hero-desktop.svg');
+    /* width: 100%; */
+    /* height: 90vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: -7px; */
+}
+
+span .logo{
+    margin-top: 70px;
+    margin-right: 7px;
+}
+
+
+.grid_container1{
+    /* margin-top: 50px; */
+    display: grid;
+    grid-template-columns: 250px auto 250px;
+    height: auto
+}
+
+.buttons{
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    width: 70%;
+    height: 90%;
+    box-shadow: 3px 3px 15px #888888;
+}
+
+.grid_container2{
+    display: grid;
+    grid-template-columns: 50% auto;
+    height: 600px;
+}
+
+.grid_item1{
+    text-align: center justify;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.grid_item2{
+    text-align: center;
+}
+
+.grid_container3{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+}
+
+.box1{
+    box-shadow: 3px 3px 15px #888888;
+    border-radius: 15px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.grid_container4{
+    display: grid;
+    grid-template-columns: 450px auto 450px;
+    }
+
+.box2{
+    background-color: #fff;
+    box-shadow: 3px 3px 15px #888888;
+    border-radius: 15px;
+    height: 200px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 12% auto 12%
+}
+
+.pink_button{
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 24px;
+    box-shadow: 3px 3px 15px #888888;
+    color: #fff;
+    width: 60%;
+    height: 50px;
+    font-size: 15px;
+    margin-left: 18%;
+}
+
+.footer_section{
+    margin-top: -70px;
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 200px;
+    height: 250px;
+    font-size: 18px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 10% 25% 20% 20% 25%; 
+}
+
+
+.footer_options{
+    margin-left: 50%;
+}
