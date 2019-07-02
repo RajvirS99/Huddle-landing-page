@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    margin: 0;
 }
 
 .section1{
@@ -23,7 +24,8 @@ span .logo{
     /* margin-top: 50px; */
     display: grid;
     grid-template-columns: 250px auto 250px;
-    height: auto
+    height: auto;
+    padding: 10px 0px 0px 10px;
 }
 
 .buttons{
